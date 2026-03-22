@@ -1,0 +1,150 @@
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body - beach gradient background */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to bottom, #87CEEB, #fdf6e3);
+    color: #333;
+}
+
+/* Header - ocean blue */
+header {
+    background: linear-gradient(to right, #00b4db, #0083b0);
+    color: white;
+    text-align: center;
+    padding: 25px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* Navigation */
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #ffe66d;
+}
+
+/* Sections - sand card style */
+section {
+    background: #fffaf0;
+    margin: 25px auto;
+    padding: 25px;
+    border-radius: 15px;
+    width: 85%;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    background: linear-gradient(to right, #56ccf2, #2f80ed);
+    color: white;
+}
+
+.hero img {
+    width: 100%;
+    max-width: 650px;
+    margin-top: 15px;
+    border-radius: 15px;
+}
+
+/* Images (Gallery) */
+img {
+    margin: 10px;
+    border-radius: 15px;
+    transition: transform 0.4s, box-shadow 0.4s;
+}
+
+img:hover {
+    transform: scale(1.08);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+
+/* Video */
+iframe {
+    display: block;
+    margin: 20px auto;
+    border-radius: 15px;
+}
+
+/* Contact Form */
+form {
+    margin-top: 15px;
+    text-align: center;
+}
+
+input, textarea {
+    width: 80%;
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+/* Button - sunset color */
+button {
+    padding: 12px 25px;
+    background: linear-gradient(to right, #ff9966, #ff5e62);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background: #0083b0;
+    color: white;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+/* Extra: smooth scroll */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Gallery Grid */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    margin-top: 20px;
+}
+
+/* Gallery Images */
+.gallery img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px;
+    transition: transform 0.4s, box-shadow 0.4s;
+}
+
+.gallery img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
